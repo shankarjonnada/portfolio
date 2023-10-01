@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Skills</title>
+    <style>
+        /* Add background image */
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('background.jpg'); /* Replace with your image path */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Add animations */
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            animation: fadeIn 1s; /* Example fade-in animation */
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* Rest of your existing styles... */
+
+        /* Additional styles for images */
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            margin-bottom: 20px;
+            animation: rotate 4s linear infinite; /* Example rotation animation */
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Skills</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <!-- Add links to other pages if needed -->
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <!-- Your skills content goes here -->
+        <h2>Web Development Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <!-- Add more skills as needed -->
+        </ul>
+        <h2>Programming Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>Java</li>
+            <!-- Add more skills as needed -->
+        </ul>
+    </section>
+
+    <!-- Add images with animation -->
+    <section>
+        <h2>Projects</h2>
+        <img src="project1.jpg" alt="Project 1">
+        <img src="project2.jpg" alt="Project 2">
+        <!-- Add more project images as needed -->
+    </section>
+
+    <footer>
+        <!-- Footer content goes here -->
+    </footer>
+</body>
+</html>
